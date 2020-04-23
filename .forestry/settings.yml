@@ -24,6 +24,8 @@ sections:
   label: Home
   templates:
   - home
+- type: heading
+  label: This is just a lable
 - type: document
   path: content/blog/_index.md
   label: Blog
