@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5ea21b37a19f5e001c769b6c/webhook/forestry
 sections:
+- type: heading
+  label: This is just a lable
 - type: document
   path: config.yaml
   label: Global Site Config
@@ -24,8 +26,6 @@ sections:
   label: Home
   templates:
   - home
-- type: heading
-  label: This is just a lable
 - type: document
   path: content/blog/_index.md
   label: Blog
