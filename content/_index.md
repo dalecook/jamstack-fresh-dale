@@ -5,9 +5,8 @@ sections:
   template: heroblock
   section_id: hero
   component: hero_block.html
-  content: This is a blog built with JAM stack. Hosted on Netlify, edited with Forestry
-    and glued up with Stackbit.
-  title: Welcome to JAMStack Test
+  content: ''
+  title: Dale Cook
   actions: []
 - type: contentblock
   template: contentblock
