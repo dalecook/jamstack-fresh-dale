@@ -1,22 +1,23 @@
-title: Stackbit Fresh Theme
-baseURL: /
+---
+title: dalecook.com
+baseURL: "/"
 params:
   layout_style: overflow
   palette: blue
   header:
-    title: Stackbit Fresh
-    tagline: Header Tagline
-    profile_img: images/avatar.png
+    title: Dale Cook
+    tagline: ''
+    profile_img: "/images/magic-mountains-1.jpg"
     bg: dark
     has_nav: true
     has_social: true
   footer:
-    content: '&copy; All rights reserved.'
+    content: "&copy; All rights reserved."
     links:
-      - text: Made with Stackbit
-        url: 'https://www.stackbit.com'
-        new_window: true
+    - text: Made with Stackbit
+      url: https://www.stackbit.com
+      new_window: true
 disableKinds:
-  - RSS
-  - taxonomy
-  - taxonomyTerm
+- RSS
+- taxonomy
+- taxonomyTerm
